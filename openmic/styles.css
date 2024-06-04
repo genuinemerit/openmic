@@ -1,0 +1,49 @@
+* {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+}
+
+/* Body */
+
+body
+{
+    overflow: visible;
+    margin: 50;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(247, 232, 232);
+    background: url(images/boardwalk_guitar_3.png) no-repeat center center;
+    background-size: 100% 100%;
+    color : rgb(20, 9, 9);
+}
+
+p
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+    color: rgb(20, 9, 9);
+}
+
+a:link{
+    font-family: "Times New Roman", Times, serif;
+}
+
+a:link{
+    color: rgb(3, 47, 37);
+    font-size: 32px;
+}
+
+a:visited{
+    color: rgb(6, 55, 89);
+}
+
+a:hover{
+    color: rgb(207, 33, 196);
+}
+
+a:active{
+    color: rgb(247, 19, 231);
+}
+

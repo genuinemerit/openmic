@@ -1,38 +1,43 @@
 * {
     -webkit-user-select:none;
     -moz-user-select:none;
-    -ms-user-select:none;
+   -ms-user-select:none;
 }
 
-/* Body */
+.center-text img:first-of-type {
+    float: left;
+}
+.center-text {
+    /* text-align: center; */
+    overflow: auto;
+}
 
 body
 {
     overflow: visible;
-    margin: 50;
+    padding-left: 12%; /* Adjust as needed */
+    padding-right: 25%; /* Adjust as needed */
+    margin: 0; /* Remove default margins */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    background-color: rgb(247, 232, 232);
-    background: url(images/boardwalk_guitar_3.png) no-repeat center center;
+    /* background-color: rgb(247, 232, 232); */
+    background-color: rgb(189, 211, 229);
     background-size: 100% 100%;
-    color : rgb(20, 9, 9);
+    color: rgb(20, 9, 9);
 }
 
 p
 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     color: rgb(20, 9, 9);
 }
 
 a:link{
-    font-family: "Times New Roman", Times, serif;
-}
-
-a:link{
-    color: rgb(3, 47, 37);
-    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(3, 82, 64);
+    font-size: 18px;
 }
 
 a:visited{
@@ -47,3 +52,15 @@ a:active{
     color: rgb(247, 19, 231);
 }
 
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Lato', sans-serif;
+    color: rgb(39, 19, 19);
+}
+
+/* CSS to center the image */
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
